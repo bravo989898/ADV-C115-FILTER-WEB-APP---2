@@ -1,0 +1,80 @@
+.header{
+    width: 100%;
+    height: 85px;
+    background-color: #4158D0;
+    background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
+}
+h1 {
+    font-size: 30px !important;
+    margin-top: 10px;
+    color: yellow;
+    font-family: "Pacifico", sans-serif;
+    letter-spacing: 2px;
+}
+.logo{
+    margin-top: -10px;
+}
+label{
+    color: white;
+    font-size: 20px;
+    font-family: "Protest Riot", sans-serif;
+    letter-spacing: 2px;
+    margin-top: -5px;
+}
+
+.column {
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+  }
+  
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+ 
+.hold {
+    margin-top: 50px;
+    width: 600px;
+    height: 550px;
+    background: rgba(255, 255, 255, 0.4);
+    backdrop-filter: blur(10px);
+    border-radius: 45px;
+    box-shadow: 0px 0px 16px 0px rgba(0, 0, 0, 0.5);
+}
+h2 {
+    margin-top: -6px;
+    font-family: "honk", sans-serif;
+    font-size: 50px;
+}
+button{
+    padding: 10px;
+    color: white;
+    background-color: #ffcb43;
+    background-image: linear-gradient(to right, #FDC830, #f12711, #F37335, #f5af19);
+    background-size: 300%;
+    background-position: left;
+    border-radius: 5px;
+    border: none;
+    box-shadow: 1px 1px 30px #ff6425;
+    transition: 0.5s background-position ease-in-out, 0.5s box-shadow ease-in-out;
+}
+
+button:hover{
+    background-position: right;
+    box-shadow: 1px 1px 30px rgb(255, 0, 208);
+}
+
+canvas {
+    animation-name: example;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes example{
+    from{box-shadow: 1px 1px 38px red;}
+    to {box-shadow: 1px 1px 50px yellow;}
+}
+
+
